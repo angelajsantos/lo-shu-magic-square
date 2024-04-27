@@ -58,7 +58,7 @@ void main() {
                     num = rand() % 9 + 1; //gets a random number between 1 and 9
                 } while (contained[num]); //check if the number has already been used
                 grid[i][j] = num;
-                contained[num] = 1;
+                contained[num] = 1;       //marks number as used
             }
         }
         for (int i = 0; i < 10; i++) {
